@@ -28,3 +28,11 @@ SELECT COUNT(DISTINCT animals.type)
 FROM staff
 INNER JOIN assignments ON staff.id = assignments.employee_id
 INNER JOIN  animals ON assignments.enclosure_id = animals.enclosure_id;
+
+--Extension 4
+
+SELECT COUNT(DISTINCT staff.name) AS number_of_diff_staff, enclosure.name AS enclosure_name
+FROM staff
+INNER JOIN assignments ON staff.id = assignments.employee_id
+INNER JOIN enclosure ON enclosure.id = assignments.enclosure_id
+GROUP BY enclosure.name ;
