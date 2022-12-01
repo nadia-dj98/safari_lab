@@ -1,5 +1,4 @@
 -------- database creation and data insertion goes here
--- shiyi
 
 DROP TABLE IF EXISTS assignments;
 DROP TABLE IF EXISTS animals; 
