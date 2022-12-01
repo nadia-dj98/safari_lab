@@ -1,4 +1,5 @@
 -------- database creation and data insertion goes here
+-- shiyi
 
 DROP TABLE IF EXISTS assignments;
 DROP TABLE IF EXISTS animals; 
@@ -51,8 +52,6 @@ INSERT INTO enclosure(name, capacity, closedForMaintenance) VALUES ('big tiger f
 INSERT INTO enclosure(name, capacity, closedForMaintenance) VALUES ('big zebra field', 8, false);
 INSERT INTO enclosure(name, capacity, closedForMaintenance) VALUES ('big lion field', 20, false);
 INSERT INTO enclosure(name, capacity, closedForMaintenance) VALUES ('snake pool', 30, true);
-
-
 
 
 
