@@ -56,10 +56,10 @@ INSERT INTO enclosure(name, capacity, closedForMaintenance) VALUES ('snake pool'
 
 ---animals data
 INSERT INTO animals (name, age,type, enclosure_id) VALUES ('Nadia', 24, 'Zebra', 1);
-INSERT INTO animals (name, age,type, enclosure_id) VALUES ('Nelly', 12, 'Tiger', 2);
+INSERT INTO animals (name, age,type, enclosure_id) VALUES ('Nelly', 28, 'Tiger', 2);
 INSERT INTO animals (name, age,type, enclosure_id) VALUES ('Ilya', 40, 'Lion', 3);
 INSERT INTO animals (name, age,type, enclosure_id) VALUES ('Shiyi', 28, 'Panther', 4);
-INSERT INTO animals (name, age,type, enclosure_id) VALUES ('Zsolt', 5, 'Eagle', 5);
+INSERT INTO animals (name, age,type, enclosure_id) VALUES ('Zsolt', 40, 'Eagle', 5);
 INSERT INTO animals (name, age,type, enclosure_id) VALUES ('Ana', 10, 'Giraffe', 6);
 INSERT INTO animals (name, age,type, enclosure_id) VALUES ('Yasmine', 28, 'Snake', 3);
 
