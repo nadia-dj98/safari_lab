@@ -36,3 +36,10 @@ FROM staff
 INNER JOIN assignments ON staff.id = assignments.employee_id
 INNER JOIN enclosure ON enclosure.id = assignments.enclosure_id
 GROUP BY enclosure.name ;
+
+--Extension 5
+
+SELECT animals.name AS animal_names, enclosure.name AS enclosure_name
+FROM animals
+INNER JOIN enclosure ON enclosure.id = animals.enclosure_id
+WHERE animals.name != 'Yasmine' AND enclosure.name = 'big tiger field';
