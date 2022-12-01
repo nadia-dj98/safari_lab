@@ -21,3 +21,10 @@ SELECT e.name AS enclosure_name,
 FROM animals AS a
 INNER JOIN enclosure AS e ON a.enclosure_id = e.id
 ORDER BY a.age DESC, a.name LIMIT 1;
+
+--EXTENSIONS3
+
+SELECT COUNT(DISTINCT animals.type)
+FROM staff
+INNER JOIN assignments ON staff.id = assignments.employee_id
+INNER JOIN  animals ON assignments.enclosure_id = animals.enclosure_id;
