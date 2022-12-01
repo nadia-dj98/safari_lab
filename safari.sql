@@ -11,3 +11,4 @@ CREATE TABLE animals(
 
 INSERT INTO animals (name, age) VALUES ('Nelly', 30);
 
+-- Hello nadia
